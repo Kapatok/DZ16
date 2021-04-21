@@ -97,10 +97,57 @@
 //================================================\\
 // numbers 7
 //================================================\\
-// Напряг 
-const bombom = document.getElementById('inp').Value;
 
-function srtBy() {
+var d = document,
+    inp = d.getElementsByClassName('field'),
+    mas = [];
 
-    document.writeln('Упражнения №7 .......Логику понимаю как делать но оно не БомБом чёта 😔');
+function save() {
+    for (var i = 0; i < inp.length; i++) {
+        mas[i] = inp[i].value;
+    }
+    console.log(mas);
 }
+save(); //-<Это победа / в нем гвоздь!!!!
+
+
+// Напряг 
+// document.writeln('Упражнения №7 .......Логику понимаю как делать но оно не БомБом чёта 😔');
+
+// let inputBy = document.querySelector('.input-in');
+// let button = document.querySelector('button');
+// let ary = [];
+// console.log(ary);
+
+// button.onclick = function srtBy() {
+//     inp = document.getElementsByClassName('.input-in');
+//     let ary = [];
+
+//     function save() {
+//         for (var i = 0; i < inp.length; i++) {
+//             mas[i] = inp[i].value;
+//         }
+//     }
+// }
+
+
+
+
+// let gsE = inputBy.value;
+// for (let i = inputBy.length - 1; i >= 0; i--) {
+//     ary.push(inputBy[i]);
+//     console.log(srtBy);
+///Ломился на сортировку в массиве =)
+// const wrr = ['GSPD', 'Lil Peep', 'linkin park', 'lil Fill', 'Garik'];
+// const newWrr = [];
+// for (let i = wrr.length - 1; i >= 0; i--) {
+//     newWrr.push(wrr[i]);
+
+// }
+// console.log(wrr);
+// console.log(newWrr);
+
+// inp = d.getElementsByClassName('field');
+// var mas = [];
+// inp.push.sav(mas)
+// console.log(mas);
